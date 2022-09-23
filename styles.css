@@ -1,0 +1,200 @@
+/* <header> */
+a.nav-link {
+    /* color: #0088cc; */
+    color:#ed8446;
+    text-transform: uppercase;
+  }
+  .navbar {
+    background-color: white;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  }
+  /* .navbar-brand img {
+    margin-left: 90px;
+  } */
+  .navbar-nav {
+    margin: auto;
+  }
+  .nav-item a {
+    padding: 15px 12px;
+    font-size: 14px;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    bottom: 2px;
+    right: 6px;
+  }
+  .dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+  
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 242px;
+  
+    z-index: 1;
+    left: 20px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+     text-transform: uppercase; 
+  }
+  
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  body {
+    margin: 0px;
+  
+    font-family: serif;
+  }
+/* header */
+.about ul li,.history ul li,.services ul li,.card-header,.card-body{
+font-size:20px;
+}
+p,.about ul li,.history ul li,.services ul li{
+  text-align: justify;
+
+}
+h2,.more{
+  color: #ed8446;
+}
+.more{
+  cursor: pointer;
+}
+.about .fa-arrow-right{
+  font-size: 15px;
+}
+
+.history .bg{
+    
+  background-color: #fff;
+  
+}
+.history .btn:hover {
+  
+  border-color:#fff; 
+}
+.history .btn:active {
+
+   border-color:#fff; 
+}
+.history .btn:focus {
+  outline: 0;
+  box-shadow:none;
+}
+
+
+.features {
+  margin-bottom: 35px;
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  min-height: 290px;
+}
+.services ul li{
+  list-style-type: disclosure-closed;
+ 
+}
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #0084cc;
+  width: max-content;
+}
+/* footer */
+.footer {
+    color: #fff;
+    background: #2d2d2e;
+    padding: 50px 0px;
+    margin-top: 40px;
+  }
+  
+  h5{
+    padding-left: 10px;
+    border-left: 3px solid #0088cc;;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color:#ed8446;
+}
+ul li{
+    font-size: 0.85em;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+.details{
+    border-top: 1px solid #DBDBDB;
+    padding-top:25px
+}
+.details h5,.details1 h5{
+    
+    font-size: 14px;
+}
+  .details ul li{
+    font-size: 0.85em;
+    padding-bottom: 8px;
+    list-style-type: none;
+  }.follow {
+    text-align: center;
+  }
+  .bg_remove {
+    background: none;
+  }
+  .ft_socailmedia_icons {
+    text-align: center;
+  }
+  .ft_socailmedia_icons ul li {
+    display: inline;
+  }
+  
+  .ft_socailmedia_icons ul li .fab {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .ft_socailmedia_icons ul li .fab:hover {
+    color: #fff;
+  }
+  
+
+  .copy-right p {
+    text-align: center;
+    color: #000;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+
+  /* footer */
+
+
+  
